@@ -1,8 +1,26 @@
 import React from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
 
 const Portfolio = () => {
+
+    // Portfolio swiper
+    // let swiperPortfolio = new Swiper(".portfolio__container", {
+    //     cssMode: true,
+    //     loop: true,
+
+    //     navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    //     },
+    //     pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //     },
+    // });
+
     return (
-        <section class="portfolio section" id="portfolio">
+        <section class="portfolio section main" id="portfolio">
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent solo and group work</span>
 
@@ -17,7 +35,7 @@ const Portfolio = () => {
                             <h3 class="portfolio__title">Password Generator</h3>
                             <p class="portfolio__description">This application allows the user to generate a random password that meets a certain criteria for greater security.</p>
                     
-                            <a href="https://brittanymy.github.io/BrittanyPasswordGenerator/" target="_blank" rel="noreferrer" class="button button--flex button--small portfolio__button">
+                            <a href="https://github.com/brittanymy/momentous-airplane" target="_blank" rel="noreferrer" class="button button--flex button--small portfolio__button">
                                 Demo 
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>

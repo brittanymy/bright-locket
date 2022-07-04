@@ -1,6 +1,28 @@
 import React from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
 
 const Testimonials = () => {
+
+    // Testimonial swiper
+    // let swiperTestimonial = new Swiper(".testimonial__container", {
+    //     loop: true,
+    //     grabCursor: true,
+    //     spaceBetween: 48,
+
+    //     pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //     dynamicBullets: true,
+    //     },
+
+    //     breakpoints: {
+    //         568: {
+    //             slidesPerView: 2,
+    //         }
+    //     }
+    // });    
+
     return (
         <section className="testimonial section">
             <h2 className="section__title">Testimonial</h2>
