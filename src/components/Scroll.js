@@ -21,8 +21,8 @@ const Scroll = () => {
     window.addEventListener ('scroll', scrollActive)
 
     return (
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
+        <a href="#" className="scrollup" id="scroll-up">
+            <i className="uil uil-arrow-up scrollup__icon"></i>
         </a>
     )
 }

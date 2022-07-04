@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <div class="swiper-wrapper">
                     {/* <!-- Portfolio 1 --> */}
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/images/portfolio1.jpeg" alt="" class="portfolio__img"/>
+                        <img src="/images/portfolio1.jpeg" alt="" class="portfolio__img"/>
                     
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Password Generator</h3>
@@ -25,7 +25,7 @@ const Portfolio = () => {
                     </div>
                     {/* <!-- Portfolio 2 --> */}
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/images/portfolio2.jpeg" alt="" class="portfolio__img"/>
+                        <img src="/images/portfolio2.jpeg" alt="" class="portfolio__img"/>
                     
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Color Palette Generator</h3>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     </div>
                     {/* <!-- Portfolio 3 --> */}
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="./assets/images/portfolio3.jpeg" alt="" class="portfolio__img"/>
+                        <img src="/images/portfolio3.jpeg" alt="" class="portfolio__img"/>
                     
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Twitcher</h3>

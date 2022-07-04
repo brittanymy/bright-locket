@@ -2,19 +2,19 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <section class="project section">
-            <div class="project__bg">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <h2 class="project__title">Want to collab?</h2>
-                        <p class="project__description">Contact me and let's get started.</p>
-                        <a href="#contact" class="button button--flex button--white">
+        <section className="project section">
+            <div className="project__bg">
+                <div className="project__container container grid">
+                    <div className="project__data">
+                        <h2 className="project__title">Want to collab?</h2>
+                        <p className="project__description">Contact me and let's get started.</p>
+                        <a href="#contact" className="button button--flex button--white">
                             Contact Me 
-                            <i class="uil uil-message project__icon button__icon"></i>
+                            <i className="uil uil-message project__icon button__icon"></i>
                         </a>
                     </div> 
 
-                    <img src="./assets/images/project.png" alt="portfolio creator" class="project__img"/>
+                    <img src="/images/project.png" alt="portfolio creator" className="project__img"/>
                 </div>
             </div>
         </section>

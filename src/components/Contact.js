@@ -2,64 +2,64 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section class="contact section main" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Get in touch</span>
+        <section className="contact section main" id="contact">
+            <h2 className="section__title">Contact Me</h2>
+            <span className="section__subtitle">Get in touch</span>
 
-            <div class="contact__container container grid">
+            <div className="contact__container container grid">
                 <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
+                    <div className="contact__information">
+                        <i className="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">984-895-5500</span>
+                            <h3 className="contact__title">Call Me</h3>
+                            <span className="contact__subtitle">984-895-5500</span>
                         </div>
                     </div>
 
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
+                    <div className="contact__information">
+                        <i className="uil uil-envelope contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">brittany.young2001@gmail.com</span>
+                            <h3 className="contact__title">Email</h3>
+                            <span className="contact__subtitle">brittany.young2001@gmail.com</span>
                         </div>
                     </div>
 
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
+                    <div className="contact__information">
+                        <i className="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Cary - NC</span>
+                            <h3 className="contact__title">Location</h3>
+                            <span className="contact__subtitle">Cary - NC</span>
                         </div>
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
-                    <div class="contact__inputs grid">
-                        <div class="contact__content"> 
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input"/> 
+                <form action="" className="contact__form grid">
+                    <div className="contact__inputs grid">
+                        <div className="contact__content"> 
+                            <label for="" className="contact__label">Name</label>
+                            <input type="text" className="contact__input"/> 
                         </div>
-                        <div class="contact__content"> 
-                            <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input"/> 
+                        <div className="contact__content"> 
+                            <label for="" className="contact__label">Email</label>
+                            <input type="email" className="contact__input"/> 
                         </div>
                     </div>
-                    <div class="contact__content"> 
-                        <label for="" class="contact__label">Project</label>
-                        <input type="project" class="contact__input"/> 
+                    <div className="contact__content"> 
+                        <label for="" className="contact__label">Project</label>
+                        <input type="project" className="contact__input"/> 
                     </div>
-                    <div class="contact__content"> 
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" rows="0" class="contact__input"></textarea>
+                    <div className="contact__content"> 
+                        <label for="" className="contact__label">Message</label>
+                        <textarea name="" id="" rows="0" className="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="/" class="button button--flex">
+                        <a href="/" className="button button--flex">
                             Send Message
-                            <i class="uil uil-message button__icon"></i>
+                            <i className="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </form>

@@ -1,60 +1,91 @@
 import React from "react";
 
 const Navigation = () => {
+    
+    // Hidden menu
+    const navMenu = document.getElementById('nav-menu'),
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close')
+
+    //Show menu, validation
+    if (navToggle) {
+    navToggle.addEventListener('click', () => {
+    navMenu.classList.add('show-menu')
+    })
+    }
+
+    // Hidden menu, validation
+    if (navClose) {
+    navClose.addEventListener('click', () => {
+    navMenu.classList.remove('show-menu')
+    })
+    }
+
+    // Remove menu mobile
+    const navLink = document.querySelectorAll('nav__link')
+
+    function linkAction () {
+    const navMenu = document.getElementById('nav-menu')
+    // When we click on each nav__link, we remove the show-menu class
+    navMenu.classList.remove('show-menu')
+    }
+
+    navLink.forEach(n => n.addEventListener('click', linkAction))
+
     return (
         <header>
-            <nav class="nav container">
-                <a href="https://github.com/brittanymy" target="_blank" rel="noreferrer" class="nav__logo">
-                    <i class="uil uil-github-alt"></i>
+            <nav className="nav container">
+                <a href="https://github.com/brittanymy" target="_blank" rel="noreferrer" className="nav__logo">
+                    <i className="uil uil-github-alt"></i>
                 </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
+                <div className="nav__menu" id="nav-menu">
+                    <ul className="nav__list grid">
+                        <li className="nav__item">
+                            <a href="#home" className="nav__link active-link">
+                                <i className="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
 
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
+                        <li className="nav__item">
+                            <a href="#about" className="nav__link">
+                                <i className="uil uil-user nav__icon"></i> About
                             </a>
                         </li>
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                        <li className="nav__item">
+                            <a href="#skills" className="nav__link">
+                                <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
 
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                        <li className="nav__item">
+                            <a href="#services" className="nav__link">
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Services
                             </a>
                         </li>
 
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        <li className="nav__item">
+                            <a href="#portfolio" className="nav__link">
+                                <i className="uil uil-scenery nav__icon"></i> Portfolio
                             </a> 
                         </li>
 
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
+                        <li className="nav__item">
+                            <a href="#contact" className="nav__link">
+                                <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
                     </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                    <i className="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__btns">
+                <div className="nav__btns">
                     {/* Change theme button */}
                     <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+                    <div className="nav__toggle" id="nav-toggle">
+                        <i className="uil uil-apps"></i>
                     </div>
                 </div>
             </nav>
