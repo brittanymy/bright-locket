@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bright-locket/static/css/main.c0b432f9.css",
+    "main.js": "/bright-locket/static/js/main.20ebccc8.js",
+    "index.html": "/bright-locket/index.html",
+    "main.c0b432f9.css.map": "/bright-locket/static/css/main.c0b432f9.css.map",
+    "main.20ebccc8.js.map": "/bright-locket/static/js/main.20ebccc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0b432f9.css",
+    "static/js/main.20ebccc8.js"
+  ]
+}
